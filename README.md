@@ -182,12 +182,15 @@ Location updated in DB
 
    Trade between survivors
    
-   
+   ![trade between survivors](https://user-images.githubusercontent.com/55132850/215312647-5b779dd2-5b3d-4038-b912-f67dae3b7ffe.jpg)
+  
    ITEMS BEFORE TRADE
    
    
       
    ITEMS AFTER TRADE
+   
+   ![inventory items after trade](https://user-images.githubusercontent.com/55132850/215312664-ad3c4b0c-6dd4-4a96-8b16-abb62de43619.jpg)
    
 // NOTE: The resources should follow the pattern `count-resource-count-resources-..` (e.g. 1-ammunition-1-food or 1-water)
 
@@ -231,6 +234,10 @@ Location updated in DB
    Points lost because of infected survivor flagged 5 times
    
    
+   
    Points lost because of infected survivor
    
+      
    
+
+
