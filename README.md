@@ -1,6 +1,6 @@
 # ZSSN (Zombie Survival Social Network)
 
-##Problem Description
+### Problem Description
 
 ZSSN (Zombie Survival Social Network). The world as we know it has fallen into an apocalyptic scenario. A laboratory-made virus is transforming human beings and animals into zombies, hungry for fresh flesh.
 You, as a zombie resistance member (and the last survivor who knows how to code), was designated to develop a system to share resources between non-infected humans.
@@ -98,9 +98,12 @@ python manage.py test
 ## Routes
 
 1. To register a new survivor.
-   METHOD: POST
-   ENDPOINT: api/v1/survivor/
-   Request Example: 
+   - METHOD: POST
+   - ENDPOINT: api/v1/survivor/
+   - Request Example: 
+
+
+![Adding survivor to DB](https://user-images.githubusercontent.com/55132850/215311258-904183d5-4d5f-4385-90a8-107607178343.png)
 
 ```
 {
@@ -123,7 +126,8 @@ python manage.py test
 
 ```
 
-The table shows the value of the ids. We have the score that each survivor will have when owning the item. 
+
+NOTE: The table shows the value of the ids. We have the score that each survivor will have when owning the item. 
 
 | Item | id | points
 | ------ | ------ | -----|
@@ -133,9 +137,11 @@ The table shows the value of the ids. We have the score that each survivor will 
 | Water | 2 | 4 | 
 
 2. To update a survivor location.
-   METHOD: PUT
-   ENDPOINT: api/v1/survivor/{id_survivor}/
-   Request Example: 
+   - METHOD: PUT
+   - ENDPOINT: api/v1/survivor/{id_survivor}/
+   - Request Example: 
+
+![Updating Location](https://user-images.githubusercontent.com/55132850/215311283-9ce88e73-2c04-439a-894a-172c98813db2.png)
 
 ```
 {
@@ -145,39 +151,42 @@ The table shows the value of the ids. We have the score that each survivor will 
 
 ```
 
+![location updated in DB](https://user-images.githubusercontent.com/55132850/215311295-08a1e456-4a67-4ada-a7f4-db4e62ae311d.png)
+
+
 3. To report a survivor as infected.
-   METHOD: PUT
-   ENDPOINT: api/v1/survivor/report_infection/{id_survivor_infected}/
-   Request Example: 
+   - METHOD: PUT
+   - ENDPOINT: api/v1/survivor/report_infection/{id_survivor_infected}/
+   - Request Example: 
    
 4. To trade items between survivors.
-   METHOD: PUT
-   ENDPOINT: api/v1/survivor/trade_items/{survivor1_id}/{item1}/{survivor2_id}/{item2}
-   Request Example:
+   - METHOD: PUT
+   - ENDPOINT: api/v1/survivor/trade_items/{survivor1_id}/{item1}/{survivor2_id}/{item2}
+   - Request Example:
 
 // NOTE: The resources should follow the pattern `count-resource-count-resources-..` (e.g. 1-ammunition-1-food or 1-water)
 
 5. To get percentage of infected survivors.
-   METHOD: GET
-   ENDPOINT: /api/v1/survivor/survivors_infected/
-   Request Example:
+   - METHOD: GET
+   - ENDPOINT: /api/v1/survivor/survivors_infected/
+   - Request Example:
    
 6. To get percentage of non-infected survivors.
-   METHOD: GET
-   ENDPOINT: /api/v1/survivor/survivors_no_infected/
-   Request Example:
+   - METHOD: GET
+   - ENDPOINT: /api/v1/survivor/survivors_no_infected/
+   - Request Example:
 
 7. To get average amount of each kind of resource by survivor.
-   METHOD: GET
-   ENDPOINT: /api/v1/survivor/avg_items/
-   Request Example:
+   - METHOD: GET
+   - ENDPOINT: /api/v1/survivor/avg_items/
+   - Request Example:
    
 8. To get total number of points lost because of infected survivors.
-   METHOD: GET
-   ENDPOINT: /api/v1/survivor/points_lost/
-   Request Example:
+   - METHOD: GET
+   - ENDPOINT: /api/v1/survivor/points_lost/
+   - Request Example:
 
 9. To get points lost because of a infected survivor.
-   METHOD: GET
-   ENDPOINT: /api/v1/survivor/points_lost/{id}
-   Request Example:
+   - METHOD: GET
+   - ENDPOINT: /api/v1/survivor/points_lost/{id}
+   - Request Example:
