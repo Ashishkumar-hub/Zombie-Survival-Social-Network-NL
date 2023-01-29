@@ -1,0 +1,10 @@
+asgiref==3.6.0
+autopep8==2.0.1
+Django==3.2.10
+djangorestframework==3.14.0
+model-mommy==2.0.0
+pycodestyle==2.10.0
+pytz==2022.7.1
+sqlparse==0.4.3
+tomli==2.0.1
+tzdata==2022.7
