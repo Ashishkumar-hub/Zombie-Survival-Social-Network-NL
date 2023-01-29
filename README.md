@@ -126,7 +126,7 @@ Adding survivor to DB
         }
 
 ```
-Survivor added to DB
+Survivor added to DB (SURVIVOR TABLE)
 
 ![Survivor added to DB](https://user-images.githubusercontent.com/55132850/215311675-081dd56b-2d87-4305-a393-907eff56f91b.png)
 
@@ -139,6 +139,10 @@ NOTE: The table shows the value of the ids. We have the score that each survivor
 | Medication | 3 | 2 |
 | Food | 1 | 3 |
 | Water | 2 | 4 | 
+
+   ITEM TABLE 
+   
+   ![item table](https://user-images.githubusercontent.com/55132850/215313274-92a651ce-121d-414a-b7e9-10ec3e43532a.png)
 
 
 2. To update a survivor location.
@@ -185,11 +189,11 @@ Location updated in DB
    
    ![trade between survivors](https://user-images.githubusercontent.com/55132850/215312647-5b779dd2-5b3d-4038-b912-f67dae3b7ffe.jpg)
   
-   ITEMS BEFORE TRADE
+   ITEMS BEFORE TRADE (INVENTORY ITEAMS TABLE)
    
    ![inventory items before trade](https://user-images.githubusercontent.com/55132850/215313058-0804a5f4-cea1-4070-aa3b-79d8a43818ad.jpg)
 
-   ITEMS AFTER TRADE
+   ITEMS AFTER TRADE (INVENTORY ITEAMS TABLE)
    
    ![inventory items after trade](https://user-images.githubusercontent.com/55132850/215312664-ad3c4b0c-6dd4-4a96-8b16-abb62de43619.jpg)
    
@@ -237,5 +241,5 @@ Location updated in DB
    
    
    Points lost because of infected survivor
-   
+
   
