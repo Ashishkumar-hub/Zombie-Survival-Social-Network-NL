@@ -241,6 +241,7 @@ Location updated in DB
    ![Points lost because of infected survivor flagged 5 times](https://raw.githubusercontent.com/Ashishkumar-hub/Zombie-Survival-Social-Network-NL/main/images/points%20lost%20because%20of%20infected%20survivor%20flagged%205%20times.png?token=GHSAT0AAAAAAB534CY3UCIZSEF4ABJEDXLAY6WFLAA)
    
    Points lost because of infected survivor
+   
    ![Points lost because of infected survivor](  https://raw.githubusercontent.com/Ashishkumar-hub/Zombie-Survival-Social-Network-NL/main/images/points%20lost%20because%20of%20infected%20survivor.png?token=GHSAT0AAAAAAB534CY2CSMUFKZG77QZPRVGY6WFLCQ)
 
   
