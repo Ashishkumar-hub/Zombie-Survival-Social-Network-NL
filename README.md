@@ -190,7 +190,7 @@ Location updated in DB
    
    ![inventory items after trade](https://user-images.githubusercontent.com/55132850/215312664-ad3c4b0c-6dd4-4a96-8b16-abb62de43619.jpg)
    
-// NOTE: The resources should follow the pattern `count-resource-count-resources-..` (e.g. 1-ammunition-1-food or 1-water)
+   **NOTE: The resources should follow the pattern `count-resource-count-resources-..` (e.g. 1-ammunition-1-food or 1-water)**
 
 5. To get percentage of infected survivors.
    - METHOD: GET
