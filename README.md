@@ -133,13 +133,6 @@ Survivor added to DB (SURVIVOR TABLE)
 
 NOTE: The table shows the value of the ids. We have the score that each survivor will have when owning the item. 
 
-| Item | id | points
-| ------ | ------ | -----|
-| Ammuntion | 4 | 1 |
-| Medication | 3 | 2 |
-| Food | 1 | 3 |
-| Water | 2 | 4 | 
-
    ITEM TABLE 
    
    ![item table](https://user-images.githubusercontent.com/55132850/215313274-92a651ce-121d-414a-b7e9-10ec3e43532a.png)
