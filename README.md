@@ -158,12 +158,27 @@ NOTE: The table shows the value of the ids. We have the score that each survivor
    - METHOD: PUT
    - ENDPOINT: api/v1/survivor/report_infection/{id_survivor_infected}/
    - Request Example: 
+   - 
+   ![Reporting Survivor as infected (Flagged)](https://user-images.githubusercontent.com/55132850/215311366-7994396e-9308-4952-ab43-48110a9a7644.png)
+
+   ![Reporting Survivor as infected (Flagged) DB View](https://user-images.githubusercontent.com/55132850/215311375-2a200970-5815-4afd-91dc-b4ec53883d00.png)
+
    
 4. To trade items between survivors.
    - METHOD: PUT
    - ENDPOINT: api/v1/survivor/trade_items/{survivor1_id}/{item1}/{survivor2_id}/{item2}
    - Request Example:
 
+   
+   
+   ITEMS BEFORE TRADE
+   
+      
+   ITEMS AFTER TRADE
+   
+   ![Uploading inventory items after trade.png…]()
+
+   
 // NOTE: The resources should follow the pattern `count-resource-count-resources-..` (e.g. 1-ammunition-1-food or 1-water)
 
 5. To get percentage of infected survivors.
