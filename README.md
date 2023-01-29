@@ -184,6 +184,8 @@ Location updated in DB
    
    
    ITEMS BEFORE TRADE
+   
+   
       
    ITEMS AFTER TRADE
    
@@ -226,7 +228,9 @@ Location updated in DB
    - ENDPOINT: /api/v1/survivor/points_lost/{id}
    - Request Example:
    
-   ![Uploading points lost because of infected survivor.png…]()
-
-
+   Points lost because of infected survivor flagged 5 times
+   
+   
+   Points lost because of infected survivor
+   
    
