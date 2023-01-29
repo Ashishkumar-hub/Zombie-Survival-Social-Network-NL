@@ -127,6 +127,7 @@ python manage.py test
 ```
 
 
+
 NOTE: The table shows the value of the ids. We have the score that each survivor will have when owning the item. 
 
 | Item | id | points
@@ -169,16 +170,13 @@ NOTE: The table shows the value of the ids. We have the score that each survivor
    - ENDPOINT: api/v1/survivor/trade_items/{survivor1_id}/{item1}/{survivor2_id}/{item2}
    - Request Example:
 
-   
+
    
    ITEMS BEFORE TRADE
    
       
    ITEMS AFTER TRADE
-   
-   ![Uploading inventory items after trade.png…]()
-
-   
+      
 // NOTE: The resources should follow the pattern `count-resource-count-resources-..` (e.g. 1-ammunition-1-food or 1-water)
 
 5. To get percentage of infected survivors.
