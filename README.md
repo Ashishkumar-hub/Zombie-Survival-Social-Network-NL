@@ -202,7 +202,8 @@ Location updated in DB
    - ENDPOINT: /api/v1/survivor/survivors_no_infected/
    - Request Example:
    
-   
+   ![percentage of noninfected survivors](https://user-images.githubusercontent.com/55132850/215312176-cf271c20-5cff-42a5-a54d-3d958137b7fc.png)
+
 
 7. To get average amount of each kind of resource by survivor.
    - METHOD: GET
@@ -225,4 +226,7 @@ Location updated in DB
    - ENDPOINT: /api/v1/survivor/points_lost/{id}
    - Request Example:
    
+   ![Uploading points lost because of infected survivor.png…]()
+
+
    
