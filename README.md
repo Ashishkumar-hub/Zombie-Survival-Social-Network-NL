@@ -186,8 +186,8 @@ Location updated in DB
   
    ITEMS BEFORE TRADE
    
-   
-      
+   ![inventory items before trade](https://user-images.githubusercontent.com/55132850/215313058-0804a5f4-cea1-4070-aa3b-79d8a43818ad.jpg)
+
    ITEMS AFTER TRADE
    
    ![inventory items after trade](https://user-images.githubusercontent.com/55132850/215312664-ad3c4b0c-6dd4-4a96-8b16-abb62de43619.jpg)
@@ -237,7 +237,4 @@ Location updated in DB
    
    Points lost because of infected survivor
    
-      
-   
-
-
+  
