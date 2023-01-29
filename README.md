@@ -140,6 +140,7 @@ NOTE: The table shows the value of the ids. We have the score that each survivor
 | Food | 1 | 3 |
 | Water | 2 | 4 | 
 
+
 2. To update a survivor location.
    - METHOD: PUT
    - ENDPOINT: api/v1/survivor/{id_survivor}/
