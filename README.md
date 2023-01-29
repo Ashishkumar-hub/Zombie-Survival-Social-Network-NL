@@ -126,6 +126,7 @@ python manage.py test
 
 ```
 
+![Survivor added to DB](https://user-images.githubusercontent.com/55132850/215311675-081dd56b-2d87-4305-a393-907eff56f91b.png)
 
 
 NOTE: The table shows the value of the ids. We have the score that each survivor will have when owning the item. 
