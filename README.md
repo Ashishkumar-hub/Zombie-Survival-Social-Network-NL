@@ -243,3 +243,4 @@ Location updated in DB
    Points lost because of infected survivor
 
   
+
