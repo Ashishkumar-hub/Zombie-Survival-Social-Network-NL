@@ -66,14 +66,14 @@ In order to accomplish this, the API must fulfill the following use cases:
 * [Python](https://www.python.org/downloads/release/python-3107/) (3.10.7)
 * [Django](https://docs.djangoproject.com/pt-br/2.0/) (3.2.10)
 * [Django Rest Framework](http://www.django-rest-framework.org/)
-* [Model Mommy](http://model-mommy.readthedocs.io/en/latest/basic_usage.html) - Old version not maintained 
-* [Model Bakery](https://pypi.org/project/model-bakery/)- New Version i.e maintained
+* [Model Mommy](http://model-mommy.readthedocs.io/en/latest/basic_usage.html) - Old version not maintained - This is used in this project
+* [Model Bakery](https://pypi.org/project/model-bakery/) - New Version i.e maintained - Which can replace model mommmy for perusal 
 
 ## HOW TO RUN
 
 Follow the below commands to setup the project 
 
-1. Install the dependencies (requirements.txt is provided for persual)
+1. Install the dependencies (requirements.txt is provided for perusal)
 
 2. Run the following 
 
